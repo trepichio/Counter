@@ -31,3 +31,8 @@ main h1 {
   color:rgba(255, 255, 255, .7);
   cursor: pointer;
 }
+
+.btn:active {
+  background-color: #000;
+  color: #fff;
+}
