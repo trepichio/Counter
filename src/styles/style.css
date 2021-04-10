@@ -11,6 +11,7 @@ main h1 {
 
 #counter {
   font-size: 6rem;
+  font-weight: 900;
 }
 
 .btn {
@@ -22,9 +23,11 @@ main h1 {
   background-color: #fff;
   text-transform: uppercase;
   font-weight: 600;
+  outline: 0;
 }
 
 .btn:hover {
-  filter: invert(1);
+  background-color: grey;
+  color:rgba(255, 255, 255, .7);
   cursor: pointer;
 }
