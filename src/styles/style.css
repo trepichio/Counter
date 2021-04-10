@@ -1,0 +1,30 @@
+main {
+  width: fit-content;
+  margin: 30vh auto;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main h1 {
+  font-size: 3.5rem;
+}
+
+#counter {
+  font-size: 6rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin: 0 0.5rem;
+  border: solid 3px #000;
+  border-radius: 10px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn:hover {
+  filter: invert(1);
+  cursor: pointer;
+}
